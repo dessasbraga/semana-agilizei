@@ -37,7 +37,7 @@ jobs:
     group: 'Semana Agilizei'
   env:
     # pass the Dashboard record key as an environment variable
-    CYPRESS_RECORD_KEY: ${{ secret.CYPREE_RECORD_KEY }}
+    CYPRESS_RECORD_KEY: ${{ secret.CYPRESS_RECORD_KEY }}
     
     # upload dos vídeos gerados
     - name: Upload videos
